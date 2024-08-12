@@ -1,0 +1,38 @@
+[
+    {
+      "id": 26,
+      "name": "Club Mixer",
+      "price": 999.99,
+      "image": "images/club_mixer.jpg",
+      "description": "This club mixer is designed for high-energy environments with a rugged build and intuitive controls. It features multiple channels, EQ controls, and built-in effects to keep the crowd moving all night long."
+    },
+    {
+      "id": 27,
+      "name": "Radio Mixer",
+      "price": 799.99,
+      "image": "images/radio_mixer.jpg",
+      "description": "A professional radio mixer ideal for broadcast studios. It comes with precise controls, multiple input options, and seamless integration with broadcasting software. Ensures clear and crisp sound for live and recorded shows."
+    },
+    {
+      "id": 28,
+      "name": "Mobile Mixer",
+      "price": 499.99,
+      "image": "images/mobile_mixer.jpg",
+      "description": "Lightweight and portable, this mobile mixer is perfect for DJs on the go. It features a compact design, USB connectivity, and battery power options, making it ideal for outdoor events and parties."
+    },
+    {
+      "id": 29,
+      "name": "Turntablist/Scratch Mixer",
+      "price": 699.99,
+      "image": "images/turntablist_mixer.jpg",
+      "description": "Specifically designed for turntablists and scratch DJs, this mixer offers high-quality faders, crossfader curve control, and a rugged build. It allows for precise scratching and seamless transitions."
+    },
+    {
+      "id": 30,
+      "name": "DJ/Producer Mixer",
+      "price": 1199.99,
+      "image": "images/dj_producer_mixer.jpg",
+      "description": "This mixer is tailored for DJ/producers, featuring multiple channels, MIDI connectivity, and advanced effects. It integrates seamlessly with digital audio workstations and allows for creative mixing and production."
+    }
+  ]
+  

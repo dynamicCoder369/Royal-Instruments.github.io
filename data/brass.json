@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Trumpet",
+      "price": 349.99,
+      "image": "images/trumpet.jpg",
+      "description": "This professional-grade trumpet features a lacquered brass body and stainless steel pistons. It delivers a bright, powerful sound suitable for orchestras and jazz bands. Includes a mouthpiece and hard case."
+    },
+    {
+      "id": 2,
+      "name": "Cornet",
+      "price": 299.99,
+      "image": "images/cornet.jpg",
+      "description": "A high-quality cornet with a rich, mellow tone. It is made from durable brass and has a silver-plated finish. Ideal for both beginners and advanced players. Comes with a mouthpiece and protective case."
+    },
+    {
+      "id": 3,
+      "name": "Flugelhorn",
+      "price": 499.99,
+      "image": "images/flugelhorn.jpg",
+      "description": "This flugelhorn is crafted from yellow brass and features a gold lacquer finish. It offers a warm, dark tone that is perfect for solo performances and ensembles. Includes a mouthpiece and a hard shell case."
+    },
+    {
+      "id": 4,
+      "name": "Trombone",
+      "price": 599.99,
+      "image": "images/trombone.jpg",
+      "description": "A high-quality tenor trombone with a seamless yellow brass bell and a chrome-plated inner slide. It produces a full, rich sound suitable for various musical genres. Comes with a mouthpiece and a durable case."
+    },
+    {
+      "id": 5,
+      "name": "Tuba",
+      "price": 1299.99,
+      "image": "images/tuba.jpg",
+      "description": "This concert tuba features a lacquered brass body and a large bore for a deep, resonant tone. It is perfect for symphonies and marching bands. Includes a mouthpiece and a wheeled case for easy transport."
+    }
+  ]
+  

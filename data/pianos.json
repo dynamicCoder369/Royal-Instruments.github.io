@@ -1,0 +1,38 @@
+[
+    {
+      "id": 31,
+      "name": "Grand Piano",
+      "price": 7999.99,
+      "image": "images/piano1.jpg",
+      "description": "This grand piano delivers a rich and full sound, perfect for concert performances. It features a solid spruce soundboard and a responsive action mechanism."
+    },
+    {
+      "id": 32,
+      "name": "Upright Piano",
+      "price": 2999.99,
+      "image": "images/piano2.jpg",
+      "description": "This upright piano is ideal for smaller spaces while still offering a powerful and resonant sound. It includes a solid spruce soundboard and high-quality hammers."
+    },
+    {
+      "id": 33,
+      "name": "Digital Piano",
+      "price": 999.99,
+      "image": "images/piano3.jpg",
+      "description": "This digital piano provides a realistic acoustic piano feel with advanced digital features. It includes multiple voices, recording capabilities, and connectivity options."
+    },
+    {
+      "id": 34,
+      "name": "Stage Piano",
+      "price": 1499.99,
+      "image": "images/piano4.jpg",
+      "description": "This stage piano is designed for live performances with high-quality samples and a sturdy build. It features a wide range of voices and effects for versatile performance."
+    },
+    {
+      "id": 35,
+      "name": "Baby Grand Piano",
+      "price": 5999.99,
+      "image": "images/piano5.jpg",
+      "description": "This baby grand piano offers the elegance of a grand piano in a more compact size. It features a solid spruce soundboard and a responsive action for excellent playability."
+    }
+  ]
+  

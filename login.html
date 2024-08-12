@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Royal Instruments</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts/scripts.js" defer></script>
+</head>
+<body class="login-page">
+  <header id="header" data-include="header.html"></header>
+  <main>
+    <section class="login">
+      <div class="container">
+        <h1>Login</h1>
+        <div class="row">
+          <div class="col-md-6">
+            
+            <form id="login-form">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+            <p class="text-center mt-3">Don't have an account? <a href="register.html">Register here</a></p>
+          </div>
+          <div class="col-md-6">
+            <h2>Welcome Back!</h2>
+            <p>Login to access your account and continue shopping with us.</p>
+            <p>Having trouble logging in? <a href="contact-us.html">Contact us</a> for assistance.</p>
+            <h2>Follow Us</h2>
+            <p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Facebook</a>
+              <a href="#" class="btn btn-outline-primary btn-sm">Twitter</a>
+              <a href="#" class="btn btn-outline-primary btn-sm">Instagram</a>
+              <a href="#" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer"></footer>
+  
+  <script>
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      
+      // Basic validation
+      if (!email || !password) {
+        alert('Please fill in both fields.');
+        return;
+      }
+
+      // Fetch the login data from the JSON file
+      fetch('data/login.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then(data => {
+          // Check if the entered email and password match any record in the JSON
+          const user = data.find(user => user.email === email && user.password === password);
+          
+          if (user) {
+            alert('Login Successful!');
+          } else {
+            alert('Invalid email or password.');
+          }
+        })
+        .catch(error => {
+          console.error('There was a problem with the fetch operation:', error);
+        });
+    });
+  </script>
+
+</body>
+</html>

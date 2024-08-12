@@ -1,0 +1,629 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: url("/Royal Instruments/images/hero.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 4em 0;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.hero .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 0.5em 0 1em;
+}
+
+/* Custom Navbar Background Color */
+.custom-navbar {
+  background-color: #0a015c;
+}
+
+.products {
+  padding: 2em 0;
+  background-color: #f4f4f4;
+}
+
+.products .container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  position: relative; /* Ensure the container is positioned relative for absolute positioning of controls */
+}
+
+.products h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.product {
+  background-color: white;
+  margin: 1em;
+  width: fit-content;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  max-width: 200px;
+}
+
+.product h3 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.product .price {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #0a015c;
+}
+
+.product .description {
+  margin: 1em 0;
+}
+
+.custom-footer {
+  background-color: #0a015c;
+  color: white;
+  padding: 1em 0;
+}
+
+/* Animations */
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-navbar {
+  animation: slide-down 1s ease-in-out;
+}
+
+.animate-fade-in {
+  animation: fade-in 2s ease-in-out;
+}
+
+.animate-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-control-pre, .carousel-control-nex {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  
+  z-index: 2;
+  color: white;
+}
+
+.carousel-control-pre {
+  left: -50px; /* Adjust the left position */
+}
+
+.carousel-control-nex {
+  right: -50px; /* Adjust the right position */
+}
+
+.carousel-control-pre-icon, .carousel-control-nex-icon {
+  background-color: rgb(100, 91, 199); /* Set the desired color */
+  border-radius: 50%; /* Make the icons circular */
+  padding: 10px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.cart {
+  padding: 2em 1em;
+  background-color: #f4f4f4;
+}
+
+.cart .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cart h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 1em 0;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.cart-item img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 8px;
+}
+
+.cart-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.product-description {
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: #666;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #0a015c;
+}
+
+.cart-item .d-flex {
+  flex-wrap: wrap;
+}
+
+.cart-item .btn {
+  margin-top: 1em;
+}
+
+#cart-summary {
+  margin-top: 2em;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+#cart-summary p {
+  margin: 0;
+}
+
+#cart-summary button {
+  margin-top: 1em;
+}
+
+footer {
+  background-color: #0a015c;
+  color: white;
+  padding: 1em 0;
+}
+
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cart-item img {
+    margin-bottom: 1em;
+  }
+
+  .cart-item .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-us-page {
+  background-color: #f4f4f4;
+}
+
+.about-us {
+  padding: 2em 1em;
+}
+
+.about-us h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.about-us p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+}
+
+.team-member h3 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.team-member p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+@media (min-width: 768px) {
+  .about-us {
+    padding: 4em 2em;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us h1 {
+    font-size: 2em;
+  }
+
+  .about-us h2 {
+    font-size: 1.5em;
+  }
+}
+
+.contact-us-page {
+  background-color: #f4f4f4;
+}
+
+.contact-us {
+  padding: 2em 1em;
+}
+
+.contact-us h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.contact-us p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.contact-us form {
+  background-color: white;
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.contact-us .form-group label {
+  font-weight: bold;
+}
+
+.contact-us .btn-primary {
+  background-color: #0a015c;
+  border-color: #0a015c;
+}
+
+.contact-us .btn-primary:hover {
+  background-color: #090149;
+  border-color: #090149;
+}
+
+.contact-us .btn-outline-primary {
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .contact-us {
+    padding: 4em 2em;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-us h1 {
+    font-size: 2em;
+  }
+
+  .contact-us h2 {
+    font-size: 1.5em;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  flex-shrink: 0;
+}
+
+.login-page main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .container {
+  max-width: 500%;
+}
+
+.login .card {
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.login .card-title {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.login .btn-primary {
+  background-color: #0a015c;
+  border-color: #0a015c;
+}
+
+.login .btn-primary:hover {
+  background-color: #090149;
+  border-color: #090149;
+}
+
+.login form {
+  margin-bottom: 1em;
+}
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Product Details Section */
+.product-detail {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.product-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#guitar-info img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#guitar-info h2 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-top: 20px;
+}
+
+#guitar-info .price {
+  font-size: 1.5rem;
+  color: #d9534f;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+#guitar-info p {
+  font-size: 1rem;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+/* Add to Cart Button */
+#add-to-cart {
+  background-color: #ffc107;
+  color: #212529;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#add-to-cart:hover {
+  background-color: #e0a800;
+  transform: translateY(-2px);
+}
+
+#add-to-cart:active {
+  background-color: #d39e00;
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #guitar-info img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #add-to-cart {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.product-p {
+  background-color: white;
+  margin: 1em;
+  width: fit-content;
+  display: inline-flex; 
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-p img {
+  max-width: 200px;
+}
+
+.product-p h3 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+.row-i{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin-left: -15px;
+  margin-right: -15px;
+  justify-content: center;
+}
+@media (max-width: 768px){
+  .row-i{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product {
+    background-color: white;
+    margin: 1em;
+    width: fit-content;
+     
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .product img {
+    max-width: 200px;
+  }
+  
+  .product h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  } 
+}
+@media (max-width: 768px){
+  .row-i{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product {
+    background-color: white;
+    margin: 1em;
+    width: fit-content;
+     
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .product img {
+    max-width: 200px;
+  }
+  
+  .product h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  } 
+}
+
+button.idbutton {
+  background-color: #007bff; /* Primary color (blue) */
+  color: white; /* Text color */
+  border: 1px solid transparent; /* Remove default border */
+  padding: 6px 12px ; /* Padding for button size */
+  margin: 8px;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 14px; /* Font size */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition effects */
+}
+
+button.idbutton:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #004085; /* Slight border color change on hover */
+}
+
+button.idbutton:active {
+  background-color: #004085; /* Even darker blue when pressed */
+  border-color: #002752; /* Border color when pressed */
+  transform: scale(0.98); /* Slight scale effect when clicked */
+}
+
+button.idbutton:disabled {
+  background-color: #d6d6d6; /* Light gray for disabled state */
+  color: #a9a9a9; /* Gray text for disabled state */
+  border-color: #d6d6d6; /* Match border to background */
+  cursor: not-allowed; /* Show not-allowed cursor for disabled button */
+  transform: none; /* No scale effect */
+}

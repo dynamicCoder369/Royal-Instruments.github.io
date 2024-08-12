@@ -1,0 +1,38 @@
+[
+    {
+      "id": 6,
+      "name": "Bamboo Flute",
+      "price": 149.99,
+      "image": "images/bamboo_flute.jpg",
+      "description": "This bamboo flute is crafted from high-quality bamboo, providing a rich and mellow tone. It's perfect for classical and folk music performances. Includes a protective case."
+    },
+    {
+      "id": 7,
+      "name": "Tabla",
+      "price": 1299.99,
+      "image": "images/tabla.jpg",
+      "description": "A traditional tabla set featuring high-quality wooden construction and goatskin heads. It offers a crisp and resonant sound, ideal for classical Indian music. Includes a tuning hammer and cushions."
+    },
+    {
+      "id": 8,
+      "name": "Harmonium",
+      "price": 1499.99,
+      "image": "images/harmonium.jpg",
+      "description": "This harmonium is made with precision craftsmanship, featuring a teakwood body and brass reeds for a full, resonant sound. It is suitable for both beginners and professional musicians. Includes a padded carrying case."
+    },
+    {
+      "id": 9,
+      "name": "Sitar",
+      "price": 1799.99,
+      "image": "images/sitar.jpg",
+      "description": "A beautifully crafted sitar with a seasoned teak body and intricate inlay work. It produces a rich, deep sound, perfect for classical Indian music. Comes with a sturdy case and extra strings."
+    },
+    {
+      "id": 10,
+      "name": "Dholak",
+      "price": 1199.99,
+      "image": "images/dholak.jpg",
+      "description": "This dholak features a hardwood body and natural leather heads, offering a versatile range of tones. It is ideal for folk and traditional music. Includes a tuning wrench and protective cover."
+    }
+  ]
+  

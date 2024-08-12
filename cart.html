@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart - Royal Instruments</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="scripts/scripts.js" defer></script>
+  </head>
+  <body class="cart-page">
+    <header id="header" data-include="header.html"></header>
+    <main>
+      <section class="cart">
+        <div class="container">
+          <h2>Your Shopping Cart</h2>
+          <div id="cart-items">
+            <!-- Example cart item -->
+            <div class="cart-item">
+              <div class="card">
+                <img src="path/to/image.jpg" class="card-img-top" alt="Guitar">
+                <div class="card-body">
+                  <h5 class="card-title">Guitar Name</h5>
+                  <p class="card-text">$199.99</p>
+                  <div class="d-flex justify-content-center align-items-center mb-2">
+                    <button class="idbutton decrement" data-id="guitar-id">-</button>
+                    <input type="text" class="form-control mx-2 text-center" value="1" readonly style="width: 60px;">
+                    <button class="idbutton increment" data-id="guitar-id">+</button>
+                  </div>
+                  <button class="btn btn-danger btn-sm remove" data-id="guitar-id">Remove</button>
+                </div>
+              </div>
+            </div>
+            
+
+            <!-- Repeat for other items -->
+          </div>
+          <div id="cart-summary">
+            <p>Total: $<span id="total-price">0.00</span></p>
+            <button class="btn btn-success">Checkout</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

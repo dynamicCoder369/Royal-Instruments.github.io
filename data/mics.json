@@ -1,0 +1,38 @@
+[
+    {
+      "id": 21,
+      "name": "Dynamic Microphone",
+      "price": 99.99,
+      "image": "images/dynamic_microphone.jpg",
+      "description": "Dynamic microphones are rugged and versatile, making them ideal for live performances. They handle high sound pressure levels and are less sensitive to background noise. Popular models include the Shure SM58 and Sennheiser e835."
+    },
+    {
+      "id": 22,
+      "name": "Condenser Microphone",
+      "price": 299.99,
+      "image": "images/condenser_microphone.jpg",
+      "description": "Condenser microphones are known for their sensitivity and accuracy, making them perfect for studio recordings. They capture a wide range of frequencies and are ideal for capturing vocals with clarity and detail. Popular models include the Audio-Technica AT2020 and Rode NT1-A."
+    },
+    {
+      "id": 23,
+      "name": "Ribbon Microphone",
+      "price": 499.99,
+      "image": "images/ribbon_microphone.jpg",
+      "description": "Ribbon microphones offer a warm and vintage sound, ideal for recording vocals with a rich, smooth quality. They are more delicate than dynamic or condenser mics and require careful handling. Popular models include the Royer R-121 and AEA R84."
+    },
+    {
+      "id": 24,
+      "name": "USB Microphone",
+      "price": 149.99,
+      "image": "images/usb_microphone.jpg",
+      "description": "USB microphones are convenient and easy to use, connecting directly to a computer via USB. They are great for home recording, podcasts, and streaming. Popular models include the Blue Yeti and Audio-Technica AT2020USB+."
+    },
+    {
+      "id": 25,
+      "name": "Lavalier Microphone",
+      "price": 79.99,
+      "image": "images/lavalier_microphone.jpg",
+      "description": "Lavalier microphones are small, clip-on mics used in presentations, theater, and broadcasting. They are discreet and provide hands-free operation, capturing clear vocal sound. Popular models include the Sennheiser ME 2 and Rode SmartLav+."
+    }
+  ]
+  

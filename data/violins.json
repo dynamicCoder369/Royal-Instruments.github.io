@@ -1,0 +1,45 @@
+[
+    {
+      "id": 36,
+      "name": "Acoustic Violin",
+      "price": 349.99,
+      "image": "images/violin1.jpg",
+      "description": "This acoustic violin features a high-quality spruce top and maple back, providing a warm and resonant sound. Ideal for both classical and folk musicians, it includes a bow and a hard case."
+    },
+    {
+      "id": 37,
+      "name": "Modern Violin",
+      "price": 799.99,
+      "image": "images/violin2.jpg",
+      "description": "A modern violin with a sleek design and contemporary construction. It boasts a carbon fiber neck and a precision-engineered bridge, offering excellent sound projection and playability. Comes with a padded case."
+    },
+    {
+      "id": 38,
+      "name": "Classic Violin",
+      "price": 1299.99,
+      "image": "images/violin3.jpg",
+      "description": "This classic violin features traditional craftsmanship with a hand-carved spruce top and maple back. Known for its rich, full-bodied tone, it's perfect for advanced players and orchestras. Includes a premium bow and case."
+    },
+    {
+      "id": 39,
+      "name": "Fiddle",
+      "price": 249.99,
+      "image": "images/violin4.jpg",
+      "description": "A versatile fiddle with a bright, lively tone suited for folk, bluegrass, and country music. This model has a durable build with an adjustable bridge and lightweight design. Includes a bow and gig bag."
+    },
+    {
+      "id": 40,
+      "name": "Bass Violin",
+      "price": 1999.99,
+      "image": "images/violin5.jpg",
+      "description": "The bass violin offers a deep, resonant sound, perfect for orchestral and solo performances. With a large body and extended range, it’s made from premium woods and includes a high-quality bow and a custom case."
+    },
+    {
+      "id": 41,
+      "name": "Cello",
+      "price": 2599.99,
+      "image": "images/violin6.jpg",
+      "description": "This cello is crafted for professional musicians, featuring a solid spruce top and maple back with a deep, rich sound. It includes a deluxe bow and a sturdy case, designed for both performance and durability."
+    }
+  ]
+  

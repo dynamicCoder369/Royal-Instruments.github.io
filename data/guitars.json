@@ -1,0 +1,37 @@
+[
+  {
+    "id": 16,
+    "name": "Acoustic Guitar",
+    "price": 299.99,
+    "image": "images/guitar1.jpg",
+    "description": "This acoustic guitar produces a warm and resonant sound that is perfect for both beginners and experienced players. It features a solid spruce top and mahogany back and sides."
+  },
+  {
+    "id": 17,
+    "name": "Electric Guitar",
+    "price": 499.99,
+    "image": "images/guitar2.jpg",
+    "description": "This electric guitar offers a sleek design and powerful sound. It comes with a maple neck, rosewood fretboard, and dual humbucking pickups for a versatile tone."
+  },
+  {
+    "id": 18,
+    "name": "Bass Guitar",
+    "price": 399.99,
+    "image": "images/guitar3.jpg",
+    "description": "This bass guitar provides deep and rich tones, ideal for both live performances and studio recordings. It features a solid alder body and a smooth maple neck."
+  },
+  {
+    "id": 19,
+    "name": "Classical Guitar",
+    "price": 249.99,
+    "image": "images/guitar4.jpg",
+    "description": "This classical guitar is perfect for traditional and flamenco styles. It has a solid cedar top and rosewood back and sides, offering a rich and full-bodied sound."
+  },
+  {
+    "id": 20,
+    "name": "Twelve-String Guitar",
+    "price": 599.99,
+    "image": "images/guitar5.jpg",
+    "description": "This twelve-string guitar produces a shimmering and chorus-like effect. It features a solid spruce top and maple back and sides, making it ideal for both strumming and fingerpicking."
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 11,
+      "name": "Acoustic Drum Kit",
+      "price": 899.99,
+      "image": "images/drum1.jpg",
+      "description": "This acoustic drum kit provides a powerful and authentic drumming experience. It includes a bass drum, snare drum, two tom-toms, a floor tom, and cymbals."
+    },
+    {
+      "id": 12,
+      "name": "Electronic Drum Set",
+      "price": 699.99,
+      "image": "images/drum2.jpg",
+      "description": "This electronic drum set is perfect for quiet practice and versatile performances. It features mesh heads for a realistic feel and multiple sound options."
+    },
+    {
+      "id": 13,
+      "name": "Jazz Drum Kit",
+      "price": 1199.99,
+      "image": "images/drum3.jpg",
+      "description": "This jazz drum kit offers a warm and nuanced sound, perfect for jazz and blues performances. It includes a bass drum, snare drum, high tom, low tom, and ride cymbal."
+    },
+    {
+      "id": 14,
+      "name": "Fusion Drum Kit",
+      "price": 999.99,
+      "image": "images/drum4.jpg",
+      "description": "This fusion drum kit combines the power of rock with the finesse of jazz. It includes a bass drum, snare drum, rack toms, floor tom, and crash/ride cymbals."
+    },
+    {
+      "id": 15,
+      "name": "Beginner Drum Set",
+      "price": 499.99,
+      "image": "images/drum5.jpg",
+      "description": "This beginner drum set is perfect for new drummers. It includes all essential components and is designed to provide a comfortable and enjoyable playing experience."
+    }
+  ]
+  
